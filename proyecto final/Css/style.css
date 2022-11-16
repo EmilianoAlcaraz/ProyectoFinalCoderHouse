@@ -1,0 +1,333 @@
+/* titulo principal de la pagina  */
+.titulo{
+
+    color: rgb(14, 15, 3);
+    font-size: 25px;
+   border-radius: 10px;
+   font-weight: 100;
+
+}
+/* segundo sub titulo de la pagina principal */
+h2{
+
+    color: rgb(14, 15, 3);
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+/* listas desordenadas de las paginas */
+#lista{
+
+    font-size: 25px;
+    margin: 30px;
+    background-position: 3cm;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    list-style-type: none;
+
+
+
+
+
+}
+/* boton de descubre mas  */
+.boton{
+    
+    text-decoration: none;
+    color: rgb(19, 17, 17);
+    font-size:  15px;
+
+
+}
+
+/* pagina en general */
+*{
+    margin: 10px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+   
+    
+    
+    
+}
+
+/* foto principal */
+.foto-1{
+
+    width: 100%;
+    
+   
+    
+}
+/* es boton de mas info sobre las motos */
+.boton-1{
+
+    color: rgb(14, 15, 3);
+    font-size: 15px;
+   text-decoration: none;
+}
+
+/* logo de la emrpresa */
+.logo{
+
+    width: 10%;
+    
+}
+
+/* foto despues de la caja de inicio*/
+.imagen{
+
+    width: 85%;
+
+}
+
+/* precio en bloque de las motos */
+
+ .precio-base{
+
+    display: block;
+    display: grid;
+    justify-content: center;
+
+ }
+
+ /* caja que encuadran parrafo */
+ .caja{
+
+    border-top: solid rgb(14, 13, 13);
+    border-bottom: solid rgb(14, 13, 13);
+
+
+ }
+
+/* imagenes en linea pagina modelos */
+ .mitad-imagen{
+    
+    padding-left: 2%;
+    display: inline;
+    height: 800px;
+    width: 800px;
+    object-fit: cover;
+    
+ }
+
+ .mitad-imagen:hover{
+
+    transform: scale(1.2, 1.2);
+    transition: all 2s;
+ }
+
+
+ 
+
+ .titulo-2{
+
+    color: rgb(14, 15, 3);
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: 100;
+    text-align: left;
+}
+
+/* formulario de contacto */
+.formulario{
+
+    display: block
+    
+    
+}
+/* sub titulo centrado en pagina merchadising */
+.stock{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(20, 19, 18);
+    
+}
+/* imagen de bolsos,remeras y camperas */
+.stock-imagenes{
+
+    padding-left: 2%;
+    display: inline;
+    height: 800px;
+    width: 800px;
+    object-fit: cover;
+
+}
+
+.stock-imagenes:hover{
+
+    transform: scale(1.2, 1.2);
+    transition: all 2s;
+
+}
+ /* parrafo de sobre nosotros */
+.texto{
+  
+    font-size: 20px;
+    list-style-type: none;
+    width: 100%;
+    color: rgb(19, 16, 16);
+   
+
+    
+}    
+
+/* fotos de sobre nosotros */
+.fabrica{
+
+    margin: 3%;
+    display: inline;
+    width: 800px;
+    object-fit: cover;
+    height: 800px
+    
+}
+
+/* menu navegacion */
+.navegacion{
+
+    background-color:  rgb(242, 119, 26)
+
+    }
+
+
+/* linea de sobre nosotros */
+.fabricas{
+
+    border-top: solid rgb(242, 119, 26);
+    border-bottom: solid rgb(242, 119, 26);
+
+}
+/* caja de contacto */
+
+.caja__1{
+
+    border: double rgb(15, 15, 15);
+}
+
+
+/* foto de las motopartes */
+
+.foto__motopartes{
+
+    
+    margin-top: 3%;
+    padding-left: 7%;
+    display: inline;
+    height: 800px;
+    width: 800px;
+    object-fit: cover;
+
+}
+
+.foto__motopartes:hover{
+
+    transform: scale(1.2, 1.2);
+    transition: all 2s;
+}
+
+
+
+/*titulo de las secciones de motopartes */
+.titulo__motopartes{
+
+    text-align: center;
+    font-size: 30px;
+    color:rgb(14, 12, 11);
+}
+
+
+/* pie de pagina  */
+.pie__de__pagina{
+
+    color: rgb(211, 198, 198);
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+
+
+}
+.logo{
+    width: 10%;
+}
+
+
+/* lista de paginas desordenadas */
+li a{
+
+    text-decoration: none;
+    color: rgb(19, 17, 17);
+    font-size: 25px;
+    
+}
+
+
+/* animaciones del header */
+
+#lista li a{
+    
+        padding: 10px;
+        transition: all .3s ease-in-out;
+
+        }
+        
+     #lista li a:hover {
+
+        background-color:rgb(22, 21, 21);
+        color: rgb(238, 230, 230);
+    }
+
+
+/* foto de tom vialle con titulo dentro */
+
+    .contenedor__foto-1{
+        
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        margin: 35px auto;
+        border-radius: 20px;
+        box-shadow: 5px 8px 12px black;
+       
+    }
+
+
+    .contenedor__foto-1 p{
+
+        font-size: 3rem;
+        color: black;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        right: 40%;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px black;
+        
+
+
+    }
+    .cuerpo__pagina-1{
+        
+        background-color: white;
+    }
+
+    .cuerpo__pagina{
+
+        background-color: rgb(242, 119, 26)
+    }
+
+
+
+
+   
+
+
+
+
+
+
+    
