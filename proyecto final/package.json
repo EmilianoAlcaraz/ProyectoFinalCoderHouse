@@ -5,7 +5,7 @@
   "main": "\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node -sass --include-path scss scss/app.scss css/translate.css",
+    "build-css": "node-sass --include-path scss scss/app.scss css/translate.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {

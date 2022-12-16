@@ -1,0 +1,246 @@
+/* titulo principal de la pagina  */
+.titulo {
+  color: #0e0f03;
+  font-size: 25px;
+  border-radius: 10px;
+  font-weight: 100; }
+  .titulo .moto {
+    color: #0e0f03;
+    font-size: 30px;
+    text-align: center; }
+
+/* listas de paginas */
+#lista {
+  font-size: 25px;
+  margin: 30px;
+  background-position: 3cm;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  list-style-type: none; }
+
+/* boton de descubre mas  */
+.boton {
+  text-decoration: none;
+  color: #131111;
+  font-size: 15px; }
+
+/* pagina en general */
+* {
+  margin: 10px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700; }
+
+/* foto principal */
+.foto-1 {
+  width: 100%; }
+  .foto-1 .boton-1 {
+    color: #0e0f03;
+    font-size: 15px;
+    text-decoration: none; }
+
+/* logo  e imagen de la emrpresa */
+.logo {
+  width: 10%; }
+  .logo .imagen {
+    width: 85%; }
+
+/* precio en bloque de las motos */
+.precio-base {
+  display: block;
+  display: grid;
+  justify-content: center; }
+
+.caja {
+  border-top: solid #0e0d0d;
+  border-bottom: solid #0e0d0d; }
+
+/* imagenes en linea pagina modelos */
+.mitad-imagen {
+  padding-left: 2%;
+  display: inline;
+  height: 800px;
+  width: 800px;
+  object-fit: cover; }
+  .mitad-imagen .mitad-imagen:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 2s; }
+    .mitad-imagen .mitad-imagen:hover .titulo-2 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #0e0f03;
+      font-size: 25px;
+      border-radius: 10px;
+      font-weight: 100;
+      text-align: left; }
+
+/* sub titulo centrado en pagina merchadising */
+.stock {
+  text-align: left;
+  font-size: 25px;
+  color: #141312; }
+  .stock .stock-imagenes {
+    padding-left: 8%;
+    display: inline;
+    height: 700px;
+    width: 700px;
+    object-fit: cover; }
+    .stock .stock-imagenes .stock-imagenes:hover {
+      transform: scale(1.2, 1.2);
+      transition: all 2s; }
+
+/* parrafo de sobre nosotros */
+.texto {
+  font-size: 20px;
+  list-style-type: none;
+  width: 100%;
+  color: #131010; }
+
+.fabrica {
+  margin: 3%;
+  display: inline;
+  width: 800px;
+  object-fit: cover;
+  height: 800px; }
+
+/* menu navegacion */
+.navegacion {
+  background-color: #f2771a; }
+
+/* linea de sobre nosotros */
+.fabricas {
+  border-top: solid #f2771a;
+  border-bottom: solid #f2771a; }
+
+/* caja de contacto */
+.caja__1 {
+  border: double #0f0f0f; }
+
+/* foto de las motopartes */
+.foto__motopartes {
+  margin-top: 3%;
+  padding-left: 7%;
+  display: inline;
+  height: 800px;
+  width: 800px;
+  object-fit: cover; }
+  .foto__motopartes .foto__motopartes:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 2s; }
+
+/*titulo de las secciones de motopartes */
+.titulo__motopartes {
+  text-align: center;
+  font-size: 30px;
+  color: #0e0c0b; }
+
+/* pie de pagina  */
+.pie__de__pagina {
+  color: #d3c6c6;
+  font-size: 20px;
+  text-align: center;
+  background-color: black; }
+
+.logo {
+  width: 10%; }
+
+/* lista de paginas desordenadas */
+li a {
+  text-decoration: none;
+  color: #131111;
+  font-size: 25px; }
+  li a #lista li a {
+    padding: 10px;
+    transition: all .3s ease-in-out; }
+    li a #lista li a #lista li a:hover {
+      background-color: #161515;
+      color: #eee6e6; }
+
+/* foto de tom vialle con titulo dentro */
+.contenedor__foto-1 {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  margin: 35px auto;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black; }
+  .contenedor__foto-1 .contenedor__foto-1 p {
+    font-size: 3rem;
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px black; }
+
+.cuerpo__pagina-1 {
+  background-color: white; }
+
+/* mediaquerys*/
+/***NAVBAR:TODAS LAS PAGINAS***/
+@media (max-width: 589px) {
+  .navegacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .navegacion:hover {
+    background-color: var(--white);
+    color: var(--grey_dark); }
+  .titulo__foto {
+    font-size: 10px; }
+  .logo {
+    min-width: 15em;
+    max-width: 15em; }
+  #lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 10%; }
+  .contenedor__foto-1 {
+    padding: var(--sp-xs);
+    transition: all .3s ease-in-out; }
+  .mitad-imagen {
+    width: 5px;
+    height: 5px; } }
+
+/***PAGINA:HOME***/
+@media (max-width: 500px) {
+  .navegacion {
+    display: flex;
+    -ms-flex-align: center;
+    padding-top: var(--sp-xl);
+    font-size: 10px; }
+  .mitad-imagen {
+    width: 10px;
+    height: 10px; }
+  .texto {
+    text-align: center;
+    border-top: 0.05em solid var(--red);
+    margin: var(--sp-md);
+    padding: var(--sp-md);
+    font-size: var(--text-md); }
+  .caja {
+    text-align: center;
+    margin: var(--sp-md);
+    padding: var(--sp-md);
+    font-size: var(--text-md); }
+  .pie__de__pagina {
+    text-align: center;
+    padding-bottom: var(--white);
+    border-bottom: 0.05em solid var(white);
+    margin: var(--sp-md);
+    padding: var(--sp-md);
+    font-size: var(--text-md); }
+  .stock-imagenes {
+    flex-direction: row-reverse;
+    height: 5px;
+    width: 5px; }
+  .fabrica {
+    flex-direction: row-reverse;
+    width: 15px;
+    height: 15px;
+    margin: 0%; }
+  .foto-1 {
+    width: 130%; } }
